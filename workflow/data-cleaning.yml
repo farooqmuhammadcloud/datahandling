@@ -19,7 +19,9 @@ jobs:
           python-version: 3.10
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        
+  run: pip install pandas
+
 
       - name: Run data cleaning script
         run: python data_cleaning.py
