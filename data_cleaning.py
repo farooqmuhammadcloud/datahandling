@@ -11,6 +11,6 @@ df.dropna(inplace=True)
 df.columns = [col.strip().lower().replace(' ', '_') for col in df.columns]
 
 # Save cleaned data
-df.to_csv("cleaned_data.csv", index=False)
+df.to_csv("cleaned1_data.csv", index=False)
 
 print("Data cleaned and saved.")
